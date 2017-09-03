@@ -1,21 +1,20 @@
 body	{
-	background-color: blue;
+	background-color: rgba(11, 103, 234, 0.82);
 	font-family: arial;
 	padding: 60px;
 }
 
-
 .logo	{
+	display: block;
+	margin: 0 auto;
 	height: 35px;
-	margin-left: 280px;
-	padding: 30px 30px 30px 30px;
+	padding-bottom: 20px;
 }
 
 legend	{
 	font-size: 20px;
 	text-align: center;
 }
-
 
 .signup-form	{
 	width: 320px;
@@ -24,6 +23,7 @@ legend	{
 	margin-right: auto;
 	padding: 60px 80px 60px 50px;
 	background-color: white;
+	border-radius: 4px;
 }
 
 .footer	{
@@ -31,7 +31,8 @@ legend	{
 }
 
 input	{
-	border: 2px solid black;
+	border: 2px solid gray;
+	border-radius: 2px;
 	width: 286px;
 	padding: 15px 15px 15px 15px;
 	margin-top: 20px;
@@ -39,25 +40,24 @@ input	{
 }
 
 button	{
-	background-color: green;
+	background-color: rgba(97, 188, 90, 90);
 	width: 100%;
 	padding: 15px;
 	border-radius: 4px;
-	margin: 10px auto 20px;
+	border: 1px solid green;
+	margin: 10px auto 10px;
 	font-size: 16px;
 	color: white;
 }
 
 .footer, a	{
 	color: white;
-	font-size: 16px;
-	font-weight: bold;
-	
+	font-size: 16px;	
 }
 
 label	{
 	vertical-align: top;
-	padding: 40px 20px 40px 20px;
+	padding: 20px 20px 20px 20px;
 }
 
 fieldset	{
