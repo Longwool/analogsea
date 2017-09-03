@@ -7,7 +7,7 @@ body	{
 
 .logo	{
 	height: 35px;
-	margin-left: 250px;
+	margin-left: 280px;
 	padding: 30px 30px 30px 30px;
 }
 
@@ -22,7 +22,7 @@ legend	{
 	height: 400px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 60px 40px 60px 40px;
+	padding: 60px 80px 60px 50px;
 	background-color: white;
 }
 
